@@ -1,11 +1,11 @@
 /* apply styles to <header> */
 
-/* remove margins from every element on page */
+/* remove margins from every element on page plus border box */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
-
 
 header {
     padding: 20px 35px;
@@ -53,4 +53,26 @@ header {
     color: #fce138;
     margin: 0;
     display: inline;
+  }
+  /* add background and style to footer */
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+/* move legal text to the right */
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+/* privacy link update */
+  footer a {
+    color: #024e76;
   }
