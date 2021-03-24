@@ -170,10 +170,10 @@ header {
   .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align:center;
+    margin: 0 auto 35
   }
   
   .primary-border {
@@ -185,7 +185,7 @@ header {
   }
 
   .intro {
-    text-align: center;
+    
   }
 
  
@@ -199,7 +199,7 @@ header {
   }
 
   .steps { 
-    text-align: center;
+    
     background: #fce138;
   }
   
@@ -229,7 +229,7 @@ header {
   /* trainers section begin */
 
   .trainers {
-    text-align: center;
+    
   }
 
   .trainer {
@@ -276,7 +276,7 @@ header {
   /* start reach out section */
 
   .contact {
-    text-align: center;
+    
     background: #024e76;
   }
   .contact h2 {
